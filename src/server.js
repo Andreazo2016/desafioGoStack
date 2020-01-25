@@ -8,7 +8,6 @@ app.use( (req,res, next) => {
     total = total + 1;
     console.log(`Total de requisições feita ${total}`)
     return next()
-    
 })
 
 app.use(express.json())
