@@ -9,7 +9,6 @@ app.use( (req,res, next) => {
     console.log(`Total de requisições feita ${total}`)
     return next()
 })
-
 app.use(express.json())
 app.use(Routes)
 
